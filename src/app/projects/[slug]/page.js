@@ -21,7 +21,7 @@ const ProjectDetailPage = ({ params }) => {
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#f9f3ef] to-[#d2c1b6]/20">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-[#1b3c53] mb-4">Project Not Found</h1>
-          <p className="text-[#456882] mb-6">The project you're looking for doesn't exist.</p>
+          <p className="text-[#456882] mb-6">The project you&apos;re looking for doesn&apos;t exist.</p>
           <Link href="/" className="bg-gradient-primary text-white px-6 py-3 rounded-lg hover:shadow-lg transition-all">
             Back to Portfolio
           </Link>

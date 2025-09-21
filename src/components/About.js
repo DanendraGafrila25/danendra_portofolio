@@ -17,20 +17,20 @@ const About = () => {
           {/* About Content */}
           <div className="space-y-6">
             <h3 className="text-2xl font-bold text-[#1b3c53] mb-4">
-              Hi, I'm Danendra
+              Hi, I&apos;m Danendra
             </h3>
             <div className="space-y-4 text-[#1b3c53]/80 leading-relaxed">
               <p>
-                I'm a passionate Full Stack Developer with experience in building modern web applications. 
+                I&apos;m a passionate Full Stack Developer with experience in building modern web applications. 
                 I love turning complex problems into simple, and intuitive solutions.
               </p>
               <p>
-                My journey in web development started several years ago, and I've been constantly learning 
+                My journey in web development started several years ago, and I&apos;ve been constantly learning 
                 and adapting to new technologies. I believe in writing clean, maintainable code and 
                 creating user experiences that make a difference.
               </p>
               <p>
-                When I'm not coding, you can find me exploring new technologies, contributing to open-source 
+                When I&apos;m not coding, you can find me exploring new technologies, contributing to open-source 
                 projects, or sharing knowledge with the developer community.
               </p>
             </div>

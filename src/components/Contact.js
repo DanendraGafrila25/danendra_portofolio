@@ -9,7 +9,7 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-lg text-[#456882] max-w-2xl mx-auto">
-            Have a project in mind or just want to chat? I'd love to hear from you!
+            Have a project in mind or just want to chat? I&apos;d love to hear from you!
           </p>
         </div>
 
@@ -18,10 +18,10 @@ const Contact = () => {
           <div className="bg-white rounded-xl shadow-lg border border-[#d2c1b6]/30 p-8 md:p-12">
             <div className="text-center mb-8">
               <h3 className="text-2xl font-bold text-[#1b3c53] mb-4">
-                Let's Start a Conversation
+                Let&apos;s Start a Conversation
               </h3>
               <p className="text-[#456882] text-lg leading-relaxed">
-                I'm always excited to work on new projects and collaborate with amazing people. 
+                I&apos;m always excited to work on new projects and collaborate with amazing people. 
                 Whether you have a specific project in mind or just want to explore possibilities, 
                 feel free to reach out through any of the methods below!
               </p>
