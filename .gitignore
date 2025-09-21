@@ -1,0 +1,24 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js build output
+/.next/
+/out/
+
+# production
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+/dist/
+
+# development
+.env*.local
+.env
+
+# next.js
+.next/
