@@ -106,7 +106,7 @@ const Skills = () => {
               Continuous Learning & Growth
             </h3>
             <p className="text-lg leading-relaxed mb-8 text-white/90">
-              Technology evolves rapidly, and I'm committed to staying ahead of the curve. 
+              Technology evolves rapidly, and I&apos;m committed to staying ahead of the curve. 
               I continuously expand my skill set through hands-on projects, online courses, and industry best practices.
             </p>
             

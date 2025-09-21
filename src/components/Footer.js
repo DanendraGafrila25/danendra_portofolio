@@ -12,7 +12,7 @@ const Footer = () => {
             <h3 className="text-2xl font-bold">Danendra</h3>
             <p className="text-[#d2c1b6] leading-relaxed">
               Full Stack Developer passionate about creating innovative web solutions. 
-              Let's build something amazing together!
+              Let&apos;s build something amazing together!
             </p>
             <div className="flex space-x-4">
               <a 

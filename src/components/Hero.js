@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="space-y-6">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl font-bold">
-                <span className="text-[#1b3c53]">Hello, I'm</span>
+                <span className="text-[#1b3c53]">Hello, I&apos;m</span>
                 <br />
                 <span className="text-gradient">Danendra Gafrila</span>
               </h1>
