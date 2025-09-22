@@ -450,6 +450,179 @@ export const projectsData = [
         "Waktu Pengembangan": "1 bulan"
     }
   },
+
+        {
+    id: 8,
+    slug: "Website-Portfolio",
+    title: "Website Portfolio",
+    shortDescription: "A personal portfolio website to showcase projects.",
+    fullDescription: "This project involves creating a personal portfolio website using Laravel. The website showcases various projects, skills, and experiences.",
+    thumbnail: "/images/projects/WebsitePortfolio.png",
+    images: [
+      "/images/projects/WebsitePortfolio.png",
+    ],
+    techStack: [
+    { name: "Laravel",  category: "Framework" },
+    { name: "PHP",  category: "Programming Language" },
+    { name: "JavaScript",  category: "Programming Language" },
+    ],
+    
+    // Multiple GitHub repositories dengan identifikasi
+    githubRepositories: [
+      {
+        name: "Website Portfolio",
+        description: "Main repository for the Website Portfolio",
+        url: "https://github.com/FarasRM/Proyek_FIX",
+        type: "main"
+      }
+    ],
+    
+    // Untuk backward compatibility
+    githubUrl: null,
+    demoUrl: null,
+    features: [
+      "Show various projects, skills, and experiences",
+      "generate to pdf format",
+      "Manage blog posts and articles",
+      "Make History of Education and Experience",
+    ],
+    challenges: [
+    {
+        problem : "optimizing layout and responsiveness",
+        solution : "implementing CSS Grid and Flexbox"
+      }
+    ],
+    status: "Completed",
+    timeline: { start: "2022-02", end: "2022-07", duration: "Completed" },
+    role: "Developer",
+    teamSize: 3,
+    category: "Development",
+    tags: ["Laravel", "PHP", "JavaScript"],
+
+    // Apakah ditampilkan di landing page
+    showOnLandingPage: false,
+    
+    metrics: {
+        "Waktu Pengembangan": "3 bulan"
+    }
+  },
+
+  {
+    id: 9,
+    slug: "Blender-Gate",
+    title: "Blender Gate",
+    shortDescription: "A project to create a gate system using Blender.",
+    fullDescription: "This project involves creating a gate system using Blender for 3D modeling and animation.",
+    thumbnail: "/images/projects/BlenderGate.png",
+    images: [
+      "/images/projects/BlenderGate.png",
+    ],
+    techStack: [
+    { name: "Blender",  category: "3D Modeling" },
+    { name: "Python",  category: "Programming Language" },
+    ],
+    
+    // Multiple GitHub repositories dengan identifikasi
+    githubRepositories: [
+
+    ],
+    
+    // Untuk backward compatibility
+    githubUrl: null,
+    demoUrl: null,
+    features: [
+      "3D modeling and animation of a gate system",
+      "Implementing interactive features using Python scripting"
+    ],
+    challenges: [
+    {
+        problem : "optimizing 3D models for performance",
+        solution : "using low-poly modeling techniques and efficient texturing"
+      }
+    ],
+    status: "Completed",
+    timeline: { start: "2022-02", end: "2022-07", duration: "Completed" },
+    role: "3D Modeler",
+    teamSize: 1,
+    category: "3D Modeling",
+    tags: ["Blender", "Python"],
+
+    // Apakah ditampilkan di landing page
+    showOnLandingPage: false,
+    
+    metrics: {
+        "Waktu Pengembangan": "1 bulan"
+    }
+  },
+
+    {
+    id: 10,
+    slug: "Checkin-Checkout-System",
+    title: "Checkin Checkout System",
+    shortDescription: "A project to create a check-in and check-out system.",
+    fullDescription: "This project involves creating a check-in and check-out system using web technologies.",
+    thumbnail: "/images/projects/CheckinCheckoutSystem.png",
+    images: [
+      "/images/projects/CheckinCheckoutSystem.png",
+      "/images/projects/CheckinCheckoutSystem1.png",
+      "/images/projects/CheckinCheckoutSystem2.png"
+    ],
+    techStack: [
+    { name: "Java",  category: "Programming Language" },
+    { name: "React.js",  category: "Programming Language" },
+    { name: "MySQL",  category: "Database" },
+    { name: "Spring Boot",  category: "Framework" },
+    { name: "Next.js",  category: "Framework" },
+    ],
+    
+    // Multiple GitHub repositories dengan identifikasi
+    githubRepositories: [
+      {
+        name: "Checkin Checkout System",
+        description: "Main repository for the Checkin Checkout System",
+        url: "https://github.com/DanendraGafrila25/cico_backend",
+        type: "backend"
+      },
+      {
+        name: "Checkin Checkout System Frontend",
+        description: "Frontend repository for the Checkin Checkout System",
+        url: "https://github.com/DanendraGafrila25/cico_frontend",
+        type: "frontend"
+      }
+    ],
+    
+    // Untuk backward compatibility
+    githubUrl: null,
+    demoUrl: null,
+    features: [
+      "Check-in and check-out functionality",
+      "User authentication and authorization",
+      "Admin dashboard for managing users and bookings",
+      "Generate reports and analytics"
+    ],
+    challenges: [
+    {
+        problem : "optimizing performance for smooth user experience",
+        solution : "implementing efficient data structures and algorithms"
+      },
+    {        problem : "ensuring data consistency and integrity",
+        solution : "using transactions and proper database design"
+      }
+    ],
+    status: "Completed",
+    timeline: { start: "2022-02", end: "2022-07", duration: "Completed" },
+    role: "web Developer",
+    teamSize: 1,
+    category: "Web Development",
+    tags: ["Java", "React.js", "MySQL", "Spring Boot", "Next.js"],
+
+    // Apakah ditampilkan di landing page
+    showOnLandingPage: false,
+    
+    metrics: {
+        "Waktu Pengembangan": "3 bulan"
+    }
+  },
   
 ];
 
