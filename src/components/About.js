@@ -61,7 +61,7 @@ const About = () => {
                   <h4 className="text-xl font-semibold text-[#1b3c53]">Frontend Development</h4>
                 </div>
                 <p className="text-[#456882]">
-                  Creating responsive and interactive user interfaces using React, Next.js, and modern CSS frameworks.
+                  Creating responsive and interactive user interfaces using React, Next.js,Vue.js, Nuxt.js and modern CSS frameworks.
                 </p>
               </div>
 
@@ -75,7 +75,7 @@ const About = () => {
                   <h4 className="text-xl font-semibold text-[#1b3c53]">Backend Development</h4>
                 </div>
                 <p className="text-[#456882]">
-                  Building robust server-side applications with Node.js, Express, and database management.
+                  Building robust server-side applications with PHP, Java, Python, Go and database management.
                 </p>
               </div>
 
