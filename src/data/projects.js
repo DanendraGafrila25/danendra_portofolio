@@ -234,6 +234,65 @@ export const projectsData = [
         "Waktu Pengembangan": "3 bulan"
     }
   },
+
+  {
+    id: 4,
+    slug: "Virtual-Tour",
+    title: "Virtual Tour Politeknik Negeri Bandung Using Unity 3D",
+    shortDescription: "A virtual tour application showcasing the Politeknik Negeri Bandung campus using Unity 3D.",
+    fullDescription: "This project involves creating an immersive virtual tour experience of the Politeknik Negeri Bandung campus using Unity 3D. Users can explore the campus in a 3D environment, interact with various points of interest, and learn more about the facilities and programs offered.",
+    thumbnail: "/images/projects/VirtualTour.png",
+    images: [
+      "/images/projects/VirtualTour.png",
+      "/images/projects/VirtualTour1.png",
+      "/images/projects/VirtualTour2.png",
+    ],
+    techStack: [
+    { name: "Python",  category: "Programming Language" },
+    { name: "Unity 3D", category: "Game Engine" },
+    { name: "C#", category: "Programming Language" },
+    { name: "Blender", category: "3D Modeling" },
+    { name: "Blosm", category: "Add ons" },
+    ],
+    
+    // Multiple GitHub repositories dengan identifikasi
+    githubRepositories: [
+      
+    ],
+    
+    // Untuk backward compatibility
+    githubUrl: null,
+    demoUrl: null,
+    features: [
+        "Immersive 3D campus exploration",
+        "Interactive points of interest",
+        "Informative descriptions of facilities and programs",
+        "User-friendly navigation controls",
+    ],
+    challenges: [
+      {
+        problem: "Creating realistic 3D models of campus buildings",
+        solution: "Using Blender for detailed modeling and texturing"
+      },
+      {
+        problem: "Optimizing performance for smooth user experience",
+        solution: "Implementing level of detail (LOD) techniques and efficient asset management"
+      }
+    ],
+    status: "Completed",
+    timeline: { start: "2024-02", end: "2024-07", duration: "Completed" },
+    role: "Unity Developer",
+    teamSize: 1,
+    category: "Unity Development",
+    tags: ["Unity 3D", "C#", "Blender", "3D Modeling", "Game Development"],
+
+    // Apakah ditampilkan di landing page
+    showOnLandingPage: true,
+    
+    metrics: {
+        "Waktu Pengembangan": "5 bulan"
+    }
+  },
   
 ];
 
