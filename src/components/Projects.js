@@ -1,13 +1,21 @@
 'use client';
 
-import Image from 'next/image';
 import Link from 'next/link';
 import { getFeaturedProjects } from '@/data/projects';
 import GitHubLinks from './GitHubLinks';
+import ProjectImage from './ProjectImage';
 
 const Projects = () => {
   // Menggunakan data dari file projects.js
   const projects = getFeaturedProjects(6); // Ambil 6 project featured
+
+  // Debug logging untuk melihat data yang dimuat
+  console.log('Projects loaded:', projects.map(p => ({
+    id: p.id,
+    title: p.title,
+    thumbnail: p.thumbnail,
+    slug: p.slug
+  })));
 
   return (
     <section id="projects" className="py-20 px-6 bg-[#f9f3ef]" style={{ overflow: 'visible' }}>
@@ -24,21 +32,22 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" style={{ overflow: 'visible' }}>
           {projects.map((project) => (
             <div 
-              key={project.id}
+              key={`project-${project.id}-${project.slug}`}
               className="bg-white rounded-xl shadow-lg border border-[#d2c1b6]/30 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 relative"
               style={{ overflow: 'visible' }}
             >
               {/* Project Image */}
               <div className="relative h-48 overflow-hidden rounded-t-xl">
-                <Image
+                <ProjectImage
                   src={project.thumbnail}
                   alt={project.title}
                   fill
                   className="object-cover"
+                  priority={false}
                 />
                 
                 {/* Status Badge */}
-                <div className="absolute top-4 left-4">
+                <div className="absolute top-4 left-4 z-10">
                   <span className={`px-3 py-1 text-sm rounded-full font-medium ${
                     project.status === 'Completed' ? 'bg-green-500 text-white' :
                     project.status === 'In Progress' ? 'bg-blue-500 text-white' :
@@ -49,7 +58,7 @@ const Projects = () => {
                 </div>
 
                 {/* Category Badge */}
-                <div className="absolute top-4 right-4">
+                <div className="absolute top-4 right-4 z-10">
                   <span className="px-3 py-1 bg-[#1b3c53]/80 text-white text-sm rounded-full font-medium">
                     {project.category}
                   </span>

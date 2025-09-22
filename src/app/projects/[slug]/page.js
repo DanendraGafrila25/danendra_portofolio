@@ -1,10 +1,10 @@
 'use client';
 
 import { useState, use } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { getProjectBySlug } from '@/data/projects';
 import GitHubLinks from '@/components/GitHubLinks';
+import ProjectImage from '@/components/ProjectImage';
 
 const ProjectDetailPage = ({ params }) => {
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
@@ -115,22 +115,23 @@ const ProjectDetailPage = ({ params }) => {
               <h2 className="text-2xl font-bold text-[#1b3c53] mb-6">Project Gallery</h2>
               <div className="space-y-4">
                 <div className="relative h-96 rounded-xl overflow-hidden shadow-lg cursor-pointer" onClick={() => openImageModal(0)}>
-                  <Image
+                  <ProjectImage
                     src={project.images[0]}
                     alt={project.title}
                     fill
                     className="object-cover hover:scale-105 transition-transform duration-300"
+                    priority={true}
                   />
                 </div>
                 {project.images.length > 1 && (
                   <div className="grid grid-cols-3 gap-4">
                     {project.images.slice(1).map((image, index) => (
                       <div 
-                        key={index + 1} 
+                        key={`gallery-${index + 1}-${image}`} 
                         className="relative h-24 rounded-lg overflow-hidden shadow cursor-pointer"
                         onClick={() => openImageModal(index + 1)}
                       >
-                        <Image
+                        <ProjectImage
                           src={image}
                           alt={`${project.title} ${index + 2}`}
                           fill
@@ -313,11 +314,12 @@ const ProjectDetailPage = ({ params }) => {
             )}
             
             <div className="relative h-[80vh]">
-              <Image
+              <ProjectImage
                 src={project.images[selectedImageIndex]}
                 alt={`${project.title} ${selectedImageIndex + 1}`}
                 fill
                 className="object-contain"
+                priority={true}
               />
             </div>
             
