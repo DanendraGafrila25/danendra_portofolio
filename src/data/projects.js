@@ -398,6 +398,58 @@ export const projectsData = [
         "Waktu Pengembangan": "1 bulan"
     }
   },
+
+      {
+    id: 7,
+    slug: "Huffman-Code",
+    title: "Huffman Code Implementation in C",
+    shortDescription: "A project to implement Huffman coding for data compression.",
+    fullDescription: "This project involves implementing Huffman coding, a popular algorithm for data compression, using the C programming language. The application allows users to compress and decompress files using Huffman coding.",
+    thumbnail: "/images/projects/HuffmanCode.png",
+    images: [
+      "/images/projects/HuffmanCode.png",
+    ],
+    techStack: [
+    { name: "C",  category: "Programming Language" },
+    ],
+    
+    // Multiple GitHub repositories dengan identifikasi
+    githubRepositories: [
+      {
+        name: "Huffman Code",
+        description: "Main repository for the Huffman Code implementation",
+        url: "https://github.com/taufikmuhamadramadhan/Tubes_HuffmanCode",
+        type: "main"
+      }
+    ],
+    
+    // Untuk backward compatibility
+    githubUrl: null,
+    demoUrl: null,
+    features: [
+      "File compression and decompression using Huffman coding", 
+      "Efficient memory management and performance optimization"
+    ],
+    challenges: [
+    {
+        problem : "optimizing compresssion and decompression",
+        solution : "implementing efficient data structures and algorithms"
+      }
+    ],
+    status: "Completed",
+    timeline: { start: "2022-02", end: "2022-07", duration: "Completed" },
+    role: "Developer",
+    teamSize: 3,
+    category: "Development",
+    tags: ["C", "Scientific Calculator", "Mathematics"],
+
+    // Apakah ditampilkan di landing page
+    showOnLandingPage: false,
+    
+    metrics: {
+        "Waktu Pengembangan": "1 bulan"
+    }
+  },
   
 ];
 
