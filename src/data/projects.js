@@ -293,6 +293,111 @@ export const projectsData = [
         "Waktu Pengembangan": "5 bulan"
     }
   },
+
+  {
+    id: 5,
+    slug: "Ticketing-System",
+    title: "Ticketing System Using C Programming Language",
+    shortDescription: "A ticketing system application developed using the C programming language.",
+    fullDescription: "This project involves creating a ticketing system application using the C programming language. The application allows users to book tickets for various events, manage bookings, and process payments.",
+    thumbnail: "/images/projects/TicketingSystem.png",
+    images: [
+      "/images/projects/TicketingSystem.png",
+    ],
+    techStack: [
+    { name: "C",  category: "Programming Language" },
+    ],
+    
+    // Multiple GitHub repositories dengan identifikasi
+    githubRepositories: [
+      {
+        name: "Ticketing System",
+        description: "Main repository for the ticketing system",
+        url: "https://drive.google.com/drive/folders/1RJiMnmljo8GNFZeCNlPAL5x9jXdOuAUl",
+        type: "main"
+      }
+    ],
+    
+    // Untuk backward compatibility
+    githubUrl: null,
+    demoUrl: null,
+    features: [
+        "User authentication",
+        "Book and manage tickets",
+        "Event listings and details",
+    ],
+    challenges: [
+{
+        problem: "Optimizing performance for smooth user experience",
+        solution: "Implementing efficient data structures and algorithms"
+      }
+    ],
+    status: "Completed",
+    timeline: { start: "2022-02", end: "2022-07", duration: "Completed" },
+    role: "Developer",
+    teamSize: 2,
+    category: "Development",
+    tags: ["C", "Ticketing System", "Event Management"],
+
+    // Apakah ditampilkan di landing page
+    showOnLandingPage: false,
+    
+    metrics: {
+        "Waktu Pengembangan": "1 bulan"
+    }
+  },
+
+    {
+    id: 6,
+    slug: "Scientific-Calculator",
+    title: "Scientific Calculator Using C Programming Language",
+    shortDescription: "A scientific calculator application developed using the C programming language.",
+    fullDescription: "This project involves creating a scientific calculator application using the C programming language. The application allows users to perform various mathematical operations, including trigonometric and logarithmic functions.",
+    thumbnail: "/images/projects/ScientificCalculator.png",
+    images: [
+      "/images/projects/ScientificCalculator.png",
+    ],
+    techStack: [
+    { name: "C",  category: "Programming Language" },
+    ],
+    
+    // Multiple GitHub repositories dengan identifikasi
+    githubRepositories: [
+      {
+        name: "Scientific Calculator",
+        description: "Main repository for the scientific calculator",
+        url: "https://github.com/DanendraGafrila25/SCIENTIFIC-CALCULATOR",
+        type: "main"
+      }
+    ],
+    
+    // Untuk backward compatibility
+    githubUrl: null,
+    demoUrl: null,
+    features: [
+      "calculations including trigonometric and logarithmic functions", 
+      "UI design that is easy to use and understand"
+    ],
+    challenges: [
+    {
+        problem : "optimizing performance for smooth user experience",
+        solution : "implementing efficient data structures and algorithms"
+      }
+    ],
+    status: "Completed",
+    timeline: { start: "2022-02", end: "2022-07", duration: "Completed" },
+    role: "Developer",
+    teamSize: 3,
+    category: "Development",
+    tags: ["C", "Scientific Calculator", "Mathematics"],
+
+    // Apakah ditampilkan di landing page
+    showOnLandingPage: false,
+    
+    metrics: {
+        "Waktu Pengembangan": "1 bulan"
+    }
+  },
   
 ];
 
